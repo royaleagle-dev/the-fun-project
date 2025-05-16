@@ -1,5 +1,5 @@
 import re
-from config import command_list, shared_variables
+from core.config import command_list, shared_variables
 
 def assign(expression):
     pattern = command_list['assign']

@@ -1,6 +1,5 @@
 import re
-from config import command_list, shared_variables
-
+from core.config import command_list, shared_variables
 
 def replace_variable(match):
     variable_name = match.group(0)
